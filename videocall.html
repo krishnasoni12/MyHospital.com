@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Hospital System</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Online Hospital</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Doctors</a></li>
+            <li><a href="#">Patients</a></li>
+            <li><a href="#">Appointments</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="video-call-section">
+            <h2>Video Call</h2>
+            <video id="local-video" autoplay></video>
+            <video id="remote-video" autoplay></video>
+            <button id="start-call">Start Call</button>
+            <button id="end-call">End Call</button>
+        </section>
+
+        <section id="chat-section">
+            <h2>Chat</h2>
+            <div id="chat-messages"></div>
+            <input type="text" id="chat-input">
+            <button id="send-message">Send</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Online Hospital System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
